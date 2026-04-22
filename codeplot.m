@@ -9,7 +9,7 @@ function opt = codeplot( X, id, opt, leg, incol)
 % X       Data to be plotted (max 3 columns)
 % id      Identifier. Same number of rows as X (max 4 columns). (Please
 %          note that the function sorts the IDs, using 'sortrows')
-% ax      If added, ads axis labels to the plot
+% opt     Options for 'codeplot'
 % leg     If added, this will be used for the legends. Should be a cell matrix
 %          with as many cells as columns in id. Each cell should hold the right
 %          number of rows (equal number of group in corresponding column)
